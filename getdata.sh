@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euxo pipefail
 
-ADDR="http://yann.lecun.com/exdb/mnist"
+ADDR="https://ossci-datasets.s3.amazonaws.com/mnist"
 FILES=(train-images-idx3-ubyte.gz \
        train-labels-idx1-ubyte.gz \
        t10k-images-idx3-ubyte.gz  \
